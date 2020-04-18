@@ -26,7 +26,7 @@ function result(ophand,rsp){
             }else{
                 return -1;
             }
-        case papter:
+        case paper:
             if(ophand == rock){
                 return 1;
             }else{
