@@ -12,6 +12,8 @@ function result(ophand,rsp){
         //あいこ
         return 0;
     }
+    /*負けは-1
+    　勝ちは1を返す */
     switch (rsp){
         case rock:
             if(ophand ==sessors){
@@ -70,7 +72,7 @@ function rsp(rsp){
             document.getElementById('result').innerText ="Even"
             break;
         default:
-            document.getElementById('result').innerText ="Ohter"               
+            document.getElementById('result').innerText ="Other"               
     } 
 
 }
